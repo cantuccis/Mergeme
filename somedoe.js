@@ -3,7 +3,7 @@ var person = {
   lastName : "Doe",
   id     : 5566,
   fullName : function() {
-    return `${this.firstName} ${this.lastName}`;
+    return `${this.name} ${this.lastName}`;
   }
 };
 console.log(`Mi nombre es ${person.fullName()}`)
