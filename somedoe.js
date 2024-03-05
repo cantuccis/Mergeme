@@ -1,10 +1,9 @@
 var person = {
-  firstName: "john",
   name: "John",
   lastName : "Doe",
   id     : 5566,
   fullName : function() {
-    return `${this.firstName} ${this.lastName}`;
+    return `${this.name} ${this.lastName}`;
   }
 };
 
