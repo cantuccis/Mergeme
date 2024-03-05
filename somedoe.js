@@ -1,4 +1,5 @@
 var person = {
+  firstName: "john",
   name: "John",
   lastName : "Doe",
   id     : 5566,
