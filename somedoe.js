@@ -1,9 +1,9 @@
 var person = {
-  firstName: "john",
-  lastName : "doe",
+  firsName: "John",
+  lastName : "Doe",
   id     : 5566,
   fullName : function() {
-    return this.firstName + " " + this.lastName;
+    return `${this.firstName} ${this.lastName}`;
   }
 };
 
